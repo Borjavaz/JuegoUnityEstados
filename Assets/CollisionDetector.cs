@@ -7,7 +7,7 @@ public class CollisionDetector : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            Debug.Log("¡Colisión iniciada! La bola tocó al cubo.");
+            Debug.Log("La bola tocó al cubo.");
         }
     }
 
@@ -25,7 +25,7 @@ public class CollisionDetector : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            Debug.Log("¡Colisión finalizada! La bola se separó del cubo.");
+            Debug.Log("La bola se separó del cubo.");
         }
     }
 }
